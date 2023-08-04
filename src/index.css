@@ -1,13 +1,137 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EDEDED;
+    height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.sidebar{
+    display: inline-flex;
+    position: fixed;
+    top: 24px;
+    left: 24px;
+    height: 100%;
+    border-radius: 8px;
+    width: 74px;
+    flex-direction: column;
+    align-items: center;
+    background: #FFF;
+    padding: 8px;
 }
+ .sidebar .bottom-logos{
+    background-color:#E5252C;
+    margin-top: 300px;
+    
+ }
+
+.sidebar li {
+    height: 44px;
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.sidebar .nav-logo{
+    margin-left: 10px;
+}
+.sidebar li a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.sidebar li .logos{
+    min-width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    filter: invert(0%) sepia(95%) saturate(0%) hue-rotate(104deg) brightness(0%) contrast(104%);
+}
+
+.sidebar .image-text img {
+    width: 16px;
+    height: 20px;
+    border-radius: 4px;
+}
+
+.sidebar header .image-text{
+    display: flex;
+    align-items: center;
+}
+
+.sidebar .image{
+    min-width: 32px;
+    display: flex;
+    align-items: center;
+}
+
+/* body
+{
+    width: 1440px;
+    background: #EDEDED;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Navbar{
+    display: flex;    
+    text-align: center;
+    justify-content: space-between;
+    width: 80px;
+    margin: 16px;
+    border-radius: 8px;
+    background: var(--ui-white, #FFF);
+}
+.LogoMain{
+    display: flex ;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    border-radius: 4px;
+    width: 40px;
+}
+ul li {
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 32px;
+}
+.LogoMain ul li:nth-child(3){
+    color: black;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background: var(--font-dark, #1A1F16);
+}
+.LogoMain img {
+    width: 24px;
+    height: 24px;
+}
+.Bottom-logo{
+    margin: 660px 8px 8px 8px;
+    background-color: #FFFFFF;
+}
+.Bottom-logo img {
+    width: 24px;
+    height: 24px;
+}
+.Bottom-exit{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    gap: 8px;
+    border-radius: 10px;
+background: var(--ui-danger, #E5252C);
+} */
